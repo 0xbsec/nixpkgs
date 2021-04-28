@@ -5385,6 +5385,8 @@ in
   hashcat-utils = callPackage ../tools/security/hashcat-utils { };
 
   hash_extender = callPackage ../tools/security/hash_extender { };
+  
+  hashid = callPackage ../tools/security/hashid {};
 
   hash-slinger = callPackage ../tools/security/hash-slinger { };
 
